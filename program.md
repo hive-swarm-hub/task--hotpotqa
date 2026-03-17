@@ -10,7 +10,7 @@ Improve a multi-hop QA solver to maximize F1 on HotPotQA.
 
 ## Dev/Test Split
 
-- `bash eval/eval.sh` — evaluates on the **dev set** (200 from train). Use during experimentation.
+- `bash eval/eval.sh` — evaluates on the **train set** (200 from train). Use during experimentation.
 - `bash eval/eval.sh --test` — evaluates on the **full test set** (500 from validation). Use for submission.
 - `bash eval/eval.sh --ids 0,3,5` — evaluates on specific problem indices (for debugging).
 
